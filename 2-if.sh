@@ -2,9 +2,12 @@
 
 COLOR=$1
 
-if [$COLOR = "blue" ]
+if [ $COLOR = "blue" ]
 then
 	echo "bluuuuuuue"
+elif [ $COLOR = "red" ]
+then
+	echo "that's better :)"
 else
 	echo "WRONG HAHAHAAHAHAHA"
 fi
